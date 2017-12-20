@@ -4,8 +4,11 @@
   "description": "An NX utility, responsible for powerful transparent reactivity with ES6 Proxies.",
   "main": "dist/cjs.es5.js",
   "module": "dist/es.es5.js",
+  "es2015": "dist/es.es6.js",
+  "esnext": "src/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "test": "node ./scripts/test.js",
